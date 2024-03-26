@@ -29,11 +29,11 @@ export default function Projects() {
                         The program generates Microsoft Word documents containing a list of students who've checked in for the day.
                         This program is currently deployed and in use at Saint Edward Catholic School in Newark, California.
                     </p>
-                    <img src={SignIn} alt='Sign-in Program' href='https://github.com/jcyalung/stedcskidsclub' target='_blank'/>
+                    <img src={SignIn} alt='Sign-in Program'/>
                     </div>
                     <motion.div layout className="child" data-isOpen={project1}/>
                 </motion.div>
-                <a href='https://github.com/jcyalung/stedcskidsclub' target='_blank' rel='noreferrer'><h4>Bobatify</h4></a>
+                <a href='https://github.com/jcyalung/bobatify' target='_blank' rel='noreferrer'><h4>Bobatify</h4></a>
                 <motion.div
                     layout
                     data-isOpen={project2}
@@ -47,7 +47,7 @@ export default function Projects() {
                         The program uses FastAPI, Python, and React for the backend and frontend.
                         This website was demoed and tested with a student base of 2000 students.
                     </p>
-                    <img src={Bobatify} alt='Bobatify' href='https://github.com/jcyalung/bobatify' target='_blank'/>
+                    <img src={Bobatify} alt='Bobatify'/>
                     </div>
                     <motion.div layout className="child" data-isOpen={project2}/>
                 </motion.div>
