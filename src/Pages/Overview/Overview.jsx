@@ -62,26 +62,26 @@ export default function Overview() {
             <h4>Languages and Frameworks</h4>
             <div className='skills'>
                 <div className='languages'>
-                    <motion.ul>
+                    <ul>
                         <b>Languages</b>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>HTML/CSS</li>
-                        <li>SQL</li>
-                    </motion.ul>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>Python</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>JavaScript</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>C++</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>Java</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>HTML/CSS</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale: 1.1}}>SQL</motion.li>
+                    </ul>
                 </div>
                 <div className='frameworks'>
-                    <motion.ul>
+                    <ul>
                         <b>Frameworks</b>
-                        <li>React</li>
-                        <li>FastAPI</li>
-                        <li>Docker</li>
-                        <li>Qt</li>
-                        <li>Nginx</li>
-                        <li>Node</li>
-                    </motion.ul>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>React</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>FastAPI</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>Docker</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>Qt</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>Nginx</motion.li>
+                        <motion.li whileHover={{color: '#000000', scale:1.1}}>Node</motion.li>
+                    </ul>
                 </div>
             </div>
             </div>
@@ -89,10 +89,3 @@ export default function Overview() {
     </>
     )
 }
-
-/*
-initial={{opacity: 1}}
-                whileHover={{
-                    scale: 1.2
-                }}
-                */
