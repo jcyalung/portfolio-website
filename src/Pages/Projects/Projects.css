@@ -1,13 +1,12 @@
 .projects {
     text-align: center;
-    width: 100%;
-    height: 100vh;
+    width: auto;
     align-items: center;
     justify-content: center;
+    display: inline-block;
 }
 
 .projects-description {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     width: 50vw;
@@ -15,4 +14,93 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 2vw;
+    color: "#FFFFFF";
+}
+
+.projects-description p {
+    font-size: 14px;
+}
+
+.project-content {
+    display: block;
+}
+
+.project-content[data-isOpen="true"] {
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    display: flex;
+}
+
+.project-content[data-isOpen="true"] p {
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    display: flex;
+    width: 40%;
+    font-size:16px;
+}
+
+.project-content[data-isOpen="false"] {
+    display: none;
+}
+
+.parent {
+    background: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.parent img {
+    width: 45%;
+    height: auto;
+    border-radius: 25%;
+}
+
+.parent[data-isOpen="true"] {
+    width: 800px;
+    height: 400px;
+}
+  
+.child {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.child[data-isOpen="true"]{
+   display: none;
+}
+
+.projects-end {
+    min-height: 100vh;
+}
+
+.projects a {
+    color: blue;
+}
+
+.projects-list {
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+.url-shortener[data-isOpen="true"] {
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    display: flex;
+    width: 100%;
+    font-size:24px;
+}
+
+.url-shortener[data-isOpen="false"] {
+    display: none;
 }

@@ -31,3 +31,38 @@
     margin-left: 75px;
     border-radius: 50%;
 }
+
+.portfolio-contents p {
+    cursor: pointer;    
+}
+
+.languages {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+}
+
+.frameworks {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.languages b {
+    color: #000000;
+}
+
+.frameworks b {
+    color: #000000;
+}
