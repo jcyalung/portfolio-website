@@ -1,9 +1,10 @@
-import './App.css';
+import './Portfolio.css';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import About from './Pages/About/About.jsx';
 import Projects from './Pages/Projects/Projects.jsx';
+import Overview from './Pages/Overview/Overview.jsx';
 function Portfolio() {
   return (
     <>
@@ -20,11 +21,7 @@ function Portfolio() {
           }}
         > Welcome to Joshua Colin Yalung's Portfolio! </motion.div>
       </div>
-      <div className='portfolio-contents'>
-        <p>About Me</p>
-        <p>Projects</p>
-        <p>Contact Me</p>
-      </div>
+      <Overview />
       <About />
       <Projects />
     </div>
@@ -32,4 +29,9 @@ function Portfolio() {
   );
 }
 
+/*
+link references:
+https://www.framer.com/motion/animation/
+https://codesandbox.io/p/sandbox/basic-6t84k?file=%2Fsrc%2Findex.js
+*/
 export default Portfolio;
