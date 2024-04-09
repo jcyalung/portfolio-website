@@ -74,7 +74,7 @@ export default function Overview() {
                 </div>
                 <div className='frameworks'>
                     <ul>
-                        <b>Frameworks</b>
+                        <b>Frameworks/Tools</b>
                         <motion.li whileHover={{color: '#000000', scale:1.1}}>React</motion.li>
                         <motion.li whileHover={{color: '#000000', scale:1.1}}>FastAPI</motion.li>
                         <motion.li whileHover={{color: '#000000', scale:1.1}}>Docker</motion.li>
