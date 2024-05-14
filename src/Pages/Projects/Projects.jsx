@@ -12,8 +12,7 @@ export default function Projects() {
         <div className='projects' id='projects'>
             <h3>Projects</h3>
             <div className='projects-description'>
-                <h4>Here are some of the projects I've worked on!</h4>
-                <p>Click on the black dot to learn more.</p>
+                <h6>Click on the black dot to learn more.</h6>
             </div>
             <div className='projects-list'>
             <a href='https://github.com/jcyalung/stedcskidsclub' target='_blank' rel='noreferrer'><h4>Sign-in/Sign-out Generator</h4></a>
